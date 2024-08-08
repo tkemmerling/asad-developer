@@ -41,12 +41,10 @@ RUN pip install jupyter
 RUN pip install fuzzywuzzy pyusps pygeocoder usaddress
 RUN pip install pinecone-client
 RUN pip install validators
-RUN pip install litellm[proxy]
 RUN pip install yt-dlp[default]
-RUN pip install pymemgpt
 RUN pip install xmltodict
 RUN pip install markdown
-
+RUN pip install flowmeter
 
 # Expose port
 EXPOSE 8081
