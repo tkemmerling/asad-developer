@@ -45,6 +45,8 @@ RUN pip install yt-dlp[default]
 RUN pip install xmltodict
 RUN pip install markdown
 RUN pip install flowmeter
+RUN pip install facebook-sdk
+RUN pip install imgurpython
 
 # Expose port
 EXPOSE 8081
