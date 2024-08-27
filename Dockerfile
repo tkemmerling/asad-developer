@@ -47,6 +47,7 @@ RUN pip install markdown
 RUN pip install flowmeter
 RUN pip install facebook-sdk
 RUN pip install imgurpython
+RUN pip install dspy-ai
 
 # Expose port
 EXPOSE 8081
