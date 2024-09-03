@@ -48,10 +48,37 @@ RUN pip install flowmeter
 RUN pip install facebook-sdk
 RUN pip install imgurpython
 RUN pip install dspy-ai
+RUN pip install sphinx sphinxcontrib-autoprogram sphinx-rtd-theme sphinx-prompt sphinx-tabs sphinx-copybutton
+RUN pip install uvicorn
+RUN pip install aiodns
+RUN pip install aiofiles
+RUN pip install aiohttp
+RUN pip install aiomultiprocess
+RUN pip install aiosqlite
+RUN pip install beautifulsoup4
+RUN pip install certifi
+RUN pip install dnspython
+RUN pip install fastapi
+RUN pip install lxml
+RUN pip install netaddr
+RUN pip install ujson
+RUN pip install playwright
+RUN pip install PyYAML
+RUN pip install python-dateutil
+RUN pip install retrying
+RUN pip install shodan
+RUN pip install slowapi
+RUN pip install uvloop
+RUN pip install ensurepath
+
+
+
 
 # Expose port
 EXPOSE 8081
+EXPOSE 8080
 EXPOSE 4000
+EXPOSE 80
 
 # Start Command
 CMD ["/bin/bash"]
