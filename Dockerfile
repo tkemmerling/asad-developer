@@ -70,7 +70,7 @@ RUN pip install shodan
 RUN pip install slowapi
 RUN pip install uvloop
 RUN pip install ensurepath
-
+RUN pip install instructor
 
 
 
