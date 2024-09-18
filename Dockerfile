@@ -71,7 +71,11 @@ RUN pip install slowapi
 RUN pip install uvloop
 RUN pip install ensurepath
 RUN pip install instructor
-
+RUN pip install pypdf
+RUN pip install neo4j
+RUN pip install langchain langchain-core langchain-text-splitters langchain-community langchain-experimental
+RUN pip install langchain-openai langchain-aws
+RUN pip install json-repair
 
 
 # Expose port
